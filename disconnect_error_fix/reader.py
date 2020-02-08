@@ -5,6 +5,8 @@ Copyright (C) 2019 Interactive Brokers LLC. All rights reserved. This code is su
 
 
 """
+This code fix is by Thane Brooker. Link: https://idalpha-devops.blogspot.com/2019/11/interactive-brokers-tws-api-python.html
+
 The EReader runs in a separate threads and is responsible for receiving the
 incoming messages.
 It will read the packets from the wire, use the low level IB messaging to
